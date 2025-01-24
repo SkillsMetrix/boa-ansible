@@ -1,22 +1,15 @@
-- name: Install lighthttpd WebServer
-  become: true
-  apt:
-    name: lighttpd
-    state: latest
-    update_cache: yes
-
-- name: Generate configuration file
-  template:
-    src: myconfig.j2
-    dest: /etc/lighttpd/lighttpd.conf
-    owner: root
-    group: root
-    mode: '0644'
-  vars:
-    server_port: 9090
-
-- name: Start lighhtpd Service
-  become: true
-  service:
-    name: lighttpd
-    state: started
+mkdir ansible-vault-demo
+  172  cd ansible-vault-demo/
+  173  mkdir roles
+  174  cd roles/
+  175  mkdir tasks
+  176  mkdir vars
+  177  tree
+  178  sudo apt install tree
+  179  tree
+  180  cd ..
+  181  tree
+  182  sudo ansible-vault create group_vars/my_vault.yml
+  183  tree
+  184  vi group_vars/my_vault.yml
+  185  sudo ansible-vault view group_vars/my_vault.yml
