@@ -1,15 +1,1 @@
-mkdir ansible-vault-demo
-  172  cd ansible-vault-demo/
-  173  mkdir roles
-  174  cd roles/
-  175  mkdir tasks
-  176  mkdir vars
-  177  tree
-  178  sudo apt install tree
-  179  tree
-  180  cd ..
-  181  tree
-  182  sudo ansible-vault create group_vars/my_vault.yml
-  183  tree
-  184  vi group_vars/my_vault.yml
-  185  sudo ansible-vault view group_vars/my_vault.yml
+https://survey.zohopublic.com/zs/8ONcj9
