@@ -1,0 +1,12 @@
+{
+    "emp_details":[
+        {
+            "name": "admin",
+            "email":"admin@mail.com"
+        },
+        {
+            "name": "manager",
+            "email":"man@mail.com"
+        }
+    ]
+}
